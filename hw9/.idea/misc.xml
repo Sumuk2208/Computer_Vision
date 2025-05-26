@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.13 (hw9)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.11.4 (sftp://up6921@weasley.cs.rit.edu:22/home/stu14/s10/up6921/.virtualenvs/hw9/bin/python)" project-jdk-type="Python SDK" />
+</project>

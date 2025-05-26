@@ -1,0 +1,34 @@
+DISCLOSURES (required)
+----------------------
+
+1. Did you collaborate with any classmates on this assignment?
+   No
+
+2. The course collaboration policy requires only "volatile" information be shared with classmates.
+   You may share and explain concepts, even in detail, but no *persistent* information like
+   screenshots, photos, direct dictation, or copy/pasted code is allowed. Did you adhere to this
+   policy?
+
+   Yes
+
+3. Did you use any generative AI assistants on this assignment (Copilot, ChatGPT, Claude, etc.)? How
+   did you use them? Were they useful?
+   Yes, I used ChatGPT
+   The underwater.py program was pretty straightforward, I used chatGPT to generate the formula that adjusts the pixel values for alpha values ranging from 0 to 1
+   The debugging code (panorama.py) was trickier since understanding code that is already written takes up some time. chatGPT helped point out the missing slope in the add weights
+   method, and I also used it to find out why the warped images were always stuck to the origin of the output co-ordinates. (xshift, yshift=max(0,left), max(0,top))
+
+REFLECTIONS (optional)
+----------------------
+
+1. What did you take away from this assignment? What was easier or harder than expected?
+
+[optional reflection here]
+
+2. What did you spend the most time on? About how much time did you spend total?
+
+[optional reflection here]
+
+3. How could class time have better prepared you for this assignment?
+
+[optional reflection here]

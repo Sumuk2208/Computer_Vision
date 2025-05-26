@@ -1,0 +1,1 @@
+This file can be removed. It is a placeholder to ensure that zip and git include the parent directory.

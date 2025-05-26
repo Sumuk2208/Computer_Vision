@@ -1,0 +1,31 @@
+DISCLOSURES (required)
+----------------------
+
+1. Did you collaborate with any classmates on this assignment? If so, list their names here.
+   No
+
+2. The course collaboration policy requires only "volatile" information be shared with classmates.
+   You may share and explain concepts, even in detail, but no *persistent* information like
+   screenshots, photos, direct dictation, or copy/pasted code is allowed. Did you adhere to this
+   policy?
+
+   Yes
+3. Did you use any generative AI assistants on this assignment (Copilot, ChatGPT, Claude, etc.)? How
+   did you use them? Were they useful?
+   I used ChatGPT, mostly to debug the test cases, The fft was causing the autograder to fail due to memory issues, GPT suggested to use float32s instead of 64s to reduce the memory usage, and it worked.
+   I also used it to write test cases and fix shape issues on my get_mask method.
+
+REFLECTIONS (optional)
+----------------------
+
+1. What did you take away from this assignment? What was easier or harder than expected?
+
+[optional reflection here]
+
+2. What did you spend the most time on? About how much time did you spend total?
+
+[optional reflection here]
+
+3. How could class time have better prepared you for this assignment?
+
+[optional reflection here]

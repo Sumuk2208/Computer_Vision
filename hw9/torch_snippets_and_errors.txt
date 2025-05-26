@@ -1,0 +1,18 @@
+1. RuntimeError: The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 1
+2. No error when adding a (3,4) shape tensor to a (4,) shape tensor. The (4,) shape tensor is broadcast as if it is (1,4) and tiled 3 times.
+3.RuntimeError: The size of tensor a (3) must match the size of tensor b (4) at non-singleton dimension 0
+4.Runs successfully - PyTorch upcasts the float32 tensor to float64 and performs the addition.
+5.RuntimeError: value cannot be converted to type uint8_t without overflow
+6.RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+7.Works as expected - matplotlib automatically handles PyTorch CPU tensors.
+8.TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+9.RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.
+10.Works as expected - detaching removes the gradient requirement and allows conversion to numpy.
+11.Works as expected - tensor values become [1., 1., 1.].
+12.RuntimeError: a leaf Variable that requires grad is being used in an in-place operation.
+13.Works as expected - output is [200.] follows rules of calculus.
+14.RuntimeError: grad can be implicitly created only for scalar outputs
+15.Expected  [1.]; Actual: (tensor([nan]),)
+16.torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 18.63 GiB. GPU 0 has a total capacity of 7.43 GiB of which 7.32 GiB is free.
+17.TypeError: Invalid shape (3, 32, 32) for image data
+18. I see a blurred image with a brown ring on the outside and a bright middle region

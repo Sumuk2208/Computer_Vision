@@ -1,0 +1,14 @@
+# Primary dependencies
+matplotlib
+numpy
+opencv-python
+torch
+torchvision
+dlib
+requests
+tqdm
+
+# Style and linting
+black
+flake8
+flake8-bugbear
