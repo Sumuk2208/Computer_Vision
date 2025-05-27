@@ -12,7 +12,7 @@ An introduction to the foundational tools and concepts required for the course o
 
 ## 01: Image Processing Tasks
 ## 02: - color spaces, color channels, and boosting contrast with histogram equalization
-- transparency andalphablending
+- transparency andalphablending\\
 - projective geometry, homography, and panoramas
 ## 03:correlation and convolution
  • 3.1 separable filters
