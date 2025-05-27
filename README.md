@@ -10,19 +10,22 @@ An introduction to the foundational tools and concepts required for the course o
 - Generating processed outputs to match provided examples
 - Practicing proper code styling and submission workflow (linting, formatting, zipping)
 
-## Image Processing Tasks
+## 01: Image Processing Tasks
+## 02: - color spaces, color channels, and boosting contrast with histogram equalization
+- transparency andalphablending
+- projective geometry, homography, and panoramas
+## 03:correlation and convolution
+ • 3.1 separable filters
+ • 3.2 handlingboundingboxes
+ • 3.3 intersection-over-union (IoU)
+ • 3.4 templatematchin
+ ## 04: Binary image processing
+ • Thresholding andbinarization
+ • Otsu’s methodforautomaticthresholding
+ • Momentsofshapes
+ • Morphological operations
+ • Usingmomentstoidentifyandlocalize shapesregardless of their size and orientation
+ • Combiningallofthesetogether into a single too
+ ## 05: 
 
-Implemented functions in `src/image_handling.py` to perform:
-
-- **Image Cropping**: Handling both in-bound and out-of-bound cropping coordinates
-- **Scaling**: Downscaling images using NumPy
-- **Transformations**:
-  - Horizontal mirroring
-  - 90-degree counterclockwise rotation
-- **Color Manipulations**:
-  - Swapping red and blue channels
-  - Scaling saturation by a factor
-  - Converting to grayscale
-  - Isolating individual blue, green, and red channels
-- **Image Tiling**: Creating a 2x2 grid of the original image using BGR order
 
